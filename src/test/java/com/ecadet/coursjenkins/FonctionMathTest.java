@@ -96,19 +96,5 @@ public class FonctionMathTest {
         
     }
     
-    /**
-     * Test of divide method, of class FonctionMath.
-     */
-    @Test
-    public void testDivideFail() {
-        System.out.println("divide");
-        String valeur1 = "10";
-        String valeur2 = "2";
-        double expResult = 2.5;
-        double result = FonctionMath.divide(valeur1, valeur2);
-        assertEquals(expResult, result, .5);
-        // TODO review the generated test code and remove the default call to fail.
-        
-    }
     
 }
